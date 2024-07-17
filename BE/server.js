@@ -16,7 +16,7 @@ app.use("/api/users", userRoute);
 app.use("/api/orders", orderRoute);
 
 // app.use(notFound);
-app.use(errorHandler);
+// app.use(errorHandler);
 
 app.get("/", (req, res) => res.send("API is running..."));
 
