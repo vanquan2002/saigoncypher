@@ -7,7 +7,7 @@ import userRoute from "./Routes/UserRouter.js";
 import orderRoute from "./Routes/OrderRouter.js";
 
 dotenv.config();
-connectDatabase();
+// connectDatabase();
 const app = express();
 app.use(express.json());
 
