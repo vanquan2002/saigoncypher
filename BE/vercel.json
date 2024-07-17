@@ -11,5 +11,8 @@
       "src": "/(.*)",
       "dest": "/"
     }
-  ]
+  ],
+  "env": {
+    "MONGO_URL": "mongodb+srv://admin:Matkhaumoi11@saigoncypher-shop.zo63rij.mongodb.net/?retryWrites=true&w=majority&appName=saigoncypher-shop"
+  }
 }
